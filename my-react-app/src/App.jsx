@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import  Input from './components/Input';
 import  Props from './components/Props';
 import  {Todo}  from './components/Todo';
+import { Counter } from './components/Counter';
 
 //Example: 1
 
@@ -86,7 +87,8 @@ import  {Todo}  from './components/Todo';
 export const App = () => {
   return (
     <div>
-      <Todo/>
+      {/* <Todo/> */}
+      <Counter/>
     </div>
   )
 }
