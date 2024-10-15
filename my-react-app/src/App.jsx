@@ -3,6 +3,7 @@ import  Input from './components/Input';
 import  Props from './components/Props';
 import  {Todo}  from './components/Todo';
 import { Counter } from './components/Counter';
+import { UseEffect } from './components/UseEffect';
 
 //Example: 1
 
@@ -88,7 +89,8 @@ export const App = () => {
   return (
     <div>
       {/* <Todo/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <UseEffect/>
     </div>
   )
 }
